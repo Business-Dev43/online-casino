@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Casino
+{% endblock %}
+
+{% block content %}
+<div>
+    <a href="{% url 'create_session' %}"><button>Start</button></a>
+</div>
+{% endblock %}
